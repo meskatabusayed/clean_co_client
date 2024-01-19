@@ -8,6 +8,7 @@ import AdminLayout from "../components/layout/AdminLayout";
 import AddService from "../page/AddService";
 import Home from "../page/Home";
 import PrivateROute from "./PrivateROute";
+import Services from "../page/Services";
 
 
 const routes = createBrowserRouter([
@@ -27,6 +28,10 @@ const routes = createBrowserRouter([
             {
                 path: 'contact',
                 element: <Contact></Contact>
+            },
+            {
+                path: 'services',
+                element: <Services></Services>
             }
         ]
     },
